@@ -32,70 +32,95 @@
                 text-align: center;
                 padding: 5px;
             }
-            .red td:hover{
-                background-color: red;
-                color: white;
-            }
-            .orange td:hover{
-                background-color: orange;
-                color: white;
-            }    
-                    .blue td:hover{
-                background-color: blue;
-                color: white;
-            }
+
             table{
                 margin: 0 auto;
+
             }
+
+
+           tr:nth-child(4n+1) td:hover{
+               background:navy;
+           }
+              tr:nth-child(4n+2) td:hover{
+               background:limegreen;
+           }
+
+              tr:nth-child(4n+3) td:hover{
+               background:orange;
+           }
+              tr:nth-child(4n+4) td:hover{
+               background:lightblue;
+           }
+
     </style>
 </head>
 <body>
     <table class="Products">
-        <thead>    
+        <thead>
+        <caption>Products</caption>
+        <th scope="col">Product id</th>
+        <th scope="col">Product Name</th>
+        <th scope="col">Product Quality</th>
+        <th scope="col">Product Quantity</th>
+        </thead>
             <tbody>
-                <caption>Products</caption>
-            <th scope="col">Product id</th> 
-            <th scope="col">Product Name</th>
-            <th scope="col">Product Quality</th>
-            <th scope="col">Product Quantity</th>  
-            <tr class="red">
+
+
+            <tr>
                 <td>1</td>
                 <td>Wheat</td>
                 <td>Good</td>
                 <td>200 Bags</td>
             </tr>
-            <tr class-="orange">
+            <tr>
                 <td>2</td>
                 <td>Wheat</td>
                 <td>Good</td>
                 <td>200 Bags</td>
             </tr>
-            <tr class="blue">
+            <tr>
                 <td>3</td>
                 <td>Wheat</td>
                 <td>Good</td>
                 <td>200 Bags</td>
             </tr>
-            <tr class="red">
+            <tr >
                 <td>4</td>
                 <td>Wheat</td>
                 <td>Good</td>
                 <td>200 Bags</td>
             </tr>
-            <tr class="orange">
+            <tr >
                 <td>5</td>
                 <td>Wheat</td>
                 <td>Good</td>
                 <td>200 Bags</td>
             </tr>
-            <tr class="blue">
+            <tr >
+                <td>6</td>
+                <td>Wheat</td>
+                <td>Good</td>
+                <td>200 Bags</td>
+            </tr>            <tr >
+                <td>6</td>
+                <td>Wheat</td>
+                <td>Good</td>
+                <td>200 Bags</td>
+            </tr>
+            <tr >
+                <td>6</td>
+                <td>Wheat</td>
+                <td>Good</td>
+                <td>200 Bags</td>
+            </tr>
+            <tr >
                 <td>6</td>
                 <td>Wheat</td>
                 <td>Good</td>
                 <td>200 Bags</td>
             </tr>
             </tbody>
-    </thead>
     </table>
 </body>
 </html>
